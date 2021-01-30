@@ -13,7 +13,7 @@ sh "mvn clean"
 
 stage ( 'build'){
 steps {
-tool name: "maven2", type:'maven'
+tool name: "maven1", type:'maven'
 sh "mvn build"
 }
 }
