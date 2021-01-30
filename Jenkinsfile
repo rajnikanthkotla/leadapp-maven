@@ -14,7 +14,7 @@ sh "mvn clean"
 stage ( 'build'){
 steps {
 tool name: "maven1", type:'maven'
-sh "mvn build"
+sh "mvn package"
 }
 }
 }
