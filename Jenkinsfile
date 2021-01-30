@@ -6,7 +6,7 @@ stages {
 stage ( 'clean')
 {
 steps{
-tool name: "maven3.2.1", type: 'maven'
+tool name: "maven3.6.0", type: 'maven'
 sh "mvn clean"
 }
 }
